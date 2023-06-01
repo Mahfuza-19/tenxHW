@@ -100,11 +100,12 @@ body {
   background: #FFFFFF;
   border-radius: 10px;
 }
-.Exam-figma .header-body .header-left .border-left {
+.Exam-figma .header-body .header-left .border .border-left {
   background: #FFFFFF;
   gap: 30px;
+  padding: 30px;
 }
-.Exam-figma .header-body .header-left .border-left button {
+.Exam-figma .header-body .header-left .border .border-left button {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -115,7 +116,7 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.03);
   border-radius: 36px;
 }
-.Exam-figma .header-body .header-left .border-left button p {
+.Exam-figma .header-body .header-left .border .border-left button p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -125,13 +126,18 @@ body {
   color: #2C2C2C;
   opacity: 0.8;
 }
-.Exam-figma .header-body .header-left .border-left button .box1 {
+.Exam-figma .header-body .header-left .border .border-left button .box1 {
   background-color: #8FD8AC;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  padding-left: 200px;
+  gap: 40px;
 }
-.Exam-figma .header-body .header-left .border-left button .box1 .box1-left h1 {
+.Exam-figma .header-body .header-left .border .border-left button .box1 .box1-left {
+  gap: 25px;
+  margin: 30px;
+}
+.Exam-figma .header-body .header-left .border .border-left button .box1 .box1-left h1 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -139,11 +145,11 @@ body {
   line-height: 24px;
   color: #FFFFFF;
 }
-.Exam-figma .header-body .header-left .border-left button .box1 .box1-left .box1-text {
+.Exam-figma .header-body .header-left .border .border-left button .box1 .box1-left .box1-text {
   display: flex;
-  gap: 5px;
+  gap: 20px;
 }
-.Exam-figma .header-body .header-left .border-left button .box1 .box1-left .box1-text p {
+.Exam-figma .header-body .header-left .border .border-left button .box1 .box1-left .box1-text p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -151,15 +157,71 @@ body {
   line-height: 19px;
   color: #FFFFFF;
 }
-.Exam-figma .header-body .header-left .border-left button .box1 .box1-left .box1-text1 {
+.Exam-figma .header-body .header-left .border .border-left button .box1 .box1-left .box1-text1 {
   display: flex;
-  gap: 5px;
+  gap: 16px;
 }
-.Exam-figma .header-body .header-left .border-left button .box1 .box1-left .box1-text1 p {
+.Exam-figma .header-body .header-left .border .border-left button .box1 .box1-left .box1-text1 p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #FFFFFF;
+}
+.Exam-figma .header-body .header-left .border .border-left button .box1 .box1-middle {
+  width: 1px;
+  height: 170px;
+  background: #FFFFFF;
+  opacity: 0.1;
+}
+.Exam-figma .header-body .header-left .border .border-left button .box1 .box1-right .box-1 {
+  gap: 7px;
+  margin: 0 auto;
+}
+.Exam-figma .header-body .header-left .border .border-left button .box1 .box1-right .box-1 img {
+  width: 14px;
+  height: 14px;
+  background: #FFFFFF;
+}
+.Exam-figma .header-body .header-left .border .border-left button .box1 .box1-right .box-1 p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+.Exam-figma .header-body .header-right .header-right-log {
+  padding: 40px;
+  display: flex;
+  gap: 200px;
+}
+.Exam-figma .header-body .header-right .header-right-log ul {
+  display: flex;
+  gap: 30px;
+}
+.Exam-figma .header-body .header-right .header-right-log ul li {
+  list-style: none;
+}
+.Exam-figma .header-body .header-right .header-right-log ul li .right-child {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  /* Saas/dark */
+  color: #2C2C2C;
+}
+.Exam-figma .header-body .header-right .header-right-log ul li a {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  /* Saas/dark */
+  color: #2C2C2C;
 }/*# sourceMappingURL=main.css.map */
