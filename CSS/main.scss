@@ -283,6 +283,25 @@ body {
                     }
                 }
             }
+
+            .right-border {
+                display: flex;
+                gap: 20px;
+                padding: 30px;
+
+                .box1-1 {
+                    .imagss {
+                        display: flex;
+                        gap: 68px;
+
+
+                        img {
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+                }
+            }
         }
     }
 }
