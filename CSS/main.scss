@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #DDDDDD;
+}
+
+.Exam-figma {
+    background: #FAFBFD;
+
+    .container {
+        width: 94%;
+        margin: 0 auto;
+
+        header {
+            width: 100%;
+            box-shadow: 0px 4px 54px rgba(0, 27, 98, 0.03);
+
+            .header-log {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 27px;
+
+
+                .log-left {
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 123px;
+                    align-items: center;
+
+                    ul {
+                        display: flex;
+                        justify-content: space-between;
+                        gap: 30px;
+
+                        li {
+                            list-style: none;
+
+                            .first-child {
+                                color: #8FD8AC;
+                            }
+
+                            a {
+                                text-decoration: none;
+                                font-family: 'Inter';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 16px;
+                                line-height: 19px;
+                            }
+                        }
+                    }
+
+                }
+
+                .log-right {
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 100px;
+                    align-items: center;
+
+                    button {
+                        // width: 269px;
+                        // display: flex;
+                        // flex-direction: row;
+                        // align-items: flex-start;
+                        padding: 12px 36px 13px;
+                        // gap: 10px;
+                        border: 1px solid #7B83CE;
+                        border-radius: 40px;
+                        margin: 27px;
+
+                        p {
+                            text-align: center;
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 17px;
+                            color: #7B83CE;
+                        }
+                    }
+
+                    .log-icons {
+                        align-items: center;
+                        display: flex;
+                        gap: 28px;
+
+                    }
+                }
+            }
+
+        }
+    }
+
+    .header-body {
+        background: #DDDDDD;
+        padding-top: 40px;
+
+
+        .header-left {
+            .header-left-log {
+                display: flex;
+                gap: 300px;
+                margin-bottom: 30px;
+
+                h1 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: #2C2C2C;
+                    margin-left: 20px;
+                }
+
+                img {
+                    width: 27px;
+                    height: 27px;
+                    background: #FFFFFF;
+                    border-radius: 10px;
+                }
+            }
+
+            .border-left {
+                background: #FFFFFF;
+                gap: 30px;
+
+                button {
+                    box-sizing: border-box;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: flex-start;
+                    padding: 4px 8px;
+                    gap: 10px;
+                    background: #FFFFFF;
+                    border: 1px solid rgba(0, 0, 0, 0.03);
+                    border-radius: 36px;
+
+                    p {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 10px;
+                        line-height: 12px;
+                        text-transform: uppercase;
+                        color: #2C2C2C;
+                        opacity: 0.8;
+                    }
+
+                    .box1 {
+                        background-color: #8FD8AC;
+                        // width: 800px;
+                        margin: 0 auto;
+                        display: flex;
+                        justify-content: space-between;
+
+                        .box1-left {
+                            h1 {
+                                font-family: 'Inter';
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 20px;
+                                line-height: 24px;
+                                color: #FFFFFF;
+                            }
+
+                            .box1-text {
+                                display: flex;
+                                gap: 5px;
+
+                                p {
+                                    font-family: 'Inter';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 19px;
+                                    color: #FFFFFF;
+                                }
+
+                            }
+
+                            .box1-text1 {
+                                display: flex;
+                                gap: 5px;
+
+                                p {
+                                    font-family: 'Inter';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 14px;
+                                    line-height: 17px;
+                                    color: #FFFFFF;
+                                }
+                            }
+
+
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+}

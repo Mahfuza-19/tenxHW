@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #DDDDDD;
+}
+
+.Exam-figma {
+  background: #FAFBFD;
+}
+.Exam-figma .container {
+  width: 94%;
+  margin: 0 auto;
+}
+.Exam-figma .container header {
+  width: 100%;
+  box-shadow: 0px 4px 54px rgba(0, 27, 98, 0.03);
+}
+.Exam-figma .container header .header-log {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 27px;
+}
+.Exam-figma .container header .header-log .log-left {
+  display: flex;
+  justify-content: space-between;
+  gap: 123px;
+  align-items: center;
+}
+.Exam-figma .container header .header-log .log-left ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.Exam-figma .container header .header-log .log-left ul li {
+  list-style: none;
+}
+.Exam-figma .container header .header-log .log-left ul li .first-child {
+  color: #8FD8AC;
+}
+.Exam-figma .container header .header-log .log-left ul li a {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+.Exam-figma .container header .header-log .log-right {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  align-items: center;
+}
+.Exam-figma .container header .header-log .log-right button {
+  padding: 12px 36px 13px;
+  border: 1px solid #7B83CE;
+  border-radius: 40px;
+  margin: 27px;
+}
+.Exam-figma .container header .header-log .log-right button p {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  color: #7B83CE;
+}
+.Exam-figma .container header .header-log .log-right .log-icons {
+  align-items: center;
+  display: flex;
+  gap: 28px;
+}
+.Exam-figma .header-body {
+  background: #DDDDDD;
+  padding-top: 40px;
+}
+.Exam-figma .header-body .header-left .header-left-log {
+  display: flex;
+  gap: 300px;
+  margin-bottom: 30px;
+}
+.Exam-figma .header-body .header-left .header-left-log h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #2C2C2C;
+  margin-left: 20px;
+}
+.Exam-figma .header-body .header-left .header-left-log img {
+  width: 27px;
+  height: 27px;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+.Exam-figma .header-body .header-left .border-left {
+  background: #FFFFFF;
+  gap: 30px;
+}
+.Exam-figma .header-body .header-left .border-left button {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 4px 8px;
+  gap: 10px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  border-radius: 36px;
+}
+.Exam-figma .header-body .header-left .border-left button p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #2C2C2C;
+  opacity: 0.8;
+}
+.Exam-figma .header-body .header-left .border-left button .box1 {
+  background-color: #8FD8AC;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.Exam-figma .header-body .header-left .border-left button .box1 .box1-left h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.Exam-figma .header-body .header-left .border-left button .box1 .box1-left .box1-text {
+  display: flex;
+  gap: 5px;
+}
+.Exam-figma .header-body .header-left .border-left button .box1 .box1-left .box1-text p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+.Exam-figma .header-body .header-left .border-left button .box1 .box1-left .box1-text1 {
+  display: flex;
+  gap: 5px;
+}
+.Exam-figma .header-body .header-left .border-left button .box1 .box1-left .box1-text1 p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}/*# sourceMappingURL=main.css.map */
